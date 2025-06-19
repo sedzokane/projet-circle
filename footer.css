@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+  }
+  
+  .contact-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 100%;
+    margin-left: 15%;
+  }
+  header .contact-link{
+    margin-bottom: 50%;
+  }
+  .contact-link a {
+    margin-right: 30%;
+  }
+  
+  /* Section 1 - Hero */
+  .hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 15%;
+  }
+  
+  .hero h1 {
+    font-size: 10vw;
+    font-weight: bold;
+    line-height: 1.1;
+  }
+  
+  /* Section 2 - Team */
+  .team-section {
+    margin-top: 60px;
+  }
+  
+  .team-header {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    width: 60%;
+    margin-bottom: 30px;
+    margin-left: 25%;
+  }
+  
+  .team-header h2 {
+    font-size: 3rem;
+    font-weight: 200;
+  }
+  
+  .arrow {
+    font-size: 2rem;
+  }
+  
+  /* Team Members */
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .member {
+    text-align: center;
+    max-width: 220px;
+    margin: 0;
+    margin-right: 7%;
+  }
+  
+  .member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .member .time {
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .member h3 {
+    margin-top: 5px;
+    font-size: 1.1rem;
+  }
+  
+  .member p {
+    font-size: 0.9rem;
+  }
+  
+  .member .email {
+    font-size: 0.8rem;
+    color: #ccc;
+  }
+
+  
+  /* Footer */
+  footer {
+    margin-top: 50px;
+    font-size: 0.8rem;
+    color: #aaa;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 10%;
+  }
+  
