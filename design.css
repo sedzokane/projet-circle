@@ -18,7 +18,7 @@
     gap: 3rem;
     animation: loop 10s linear infinite;
 }
-
+/* partie */
 .texte {
     display: flex;
     align-items: center;
@@ -28,6 +28,7 @@
 
 }
 /* partie-chiffre */
+
 .chiffre {
     font-family: 'Montserrat', 'sans serif';
     color: transparent;
